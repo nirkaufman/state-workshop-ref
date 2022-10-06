@@ -8,7 +8,22 @@
   "projects": {
     "state-workshop-ref": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": true,
+          "skipTests": true,
+          "inlineStyle": true,
+          "inlineTemplate": true,
+          "flat": true
+        },
+        "@schematics/angular:directive": {
+          "standalone": true,
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
