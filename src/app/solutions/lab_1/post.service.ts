@@ -127,7 +127,6 @@ export class PostService {
 
   constructor() {
     console.log('Fresh instance of PostService has been created!');
-
     this.setState(new Draft());
   }
 
