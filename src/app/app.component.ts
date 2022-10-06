@@ -1,24 +1,16 @@
 import {Component} from '@angular/core';
-import {PostEndComponent} from "./solutions/lab_1/post-end.component";
-import {NgIf} from "@angular/common";
+import {SyncEndComponent} from "./solutions/lab_2/sync-end.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [PostEndComponent, NgIf],
+  imports: [SyncEndComponent],
   template: `
      <div class="container">
         <h1>State Workshop Ref</h1>
-         <button class="btn btn-primary my-4" (click)="startNewPost()">create new post</button>
-        <app-post-end *ngIf="showPostUI"></app-post-end> 
+        <app-sync-end></app-sync-end> 
     </div>
   `,
 
 })
-export class AppComponent {
-  showPostUI = false;
-
-  startNewPost() {
-    this.showPostUI = true;
-  }
-}
+export class AppComponent {}

@@ -5,7 +5,7 @@ export enum PostStates {
   DRAFT = 'DRAFT',
   IN_REVIEW = 'IN_REVIEW',
   APPROVED = 'APPROVED',
-  DECLINED = 'APPROVED',
+  DECLINED = 'DECLINED',
   PUBLISHED = 'PUBLISHED'
 }
 
