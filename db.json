@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post Number One Title",
+      "content": "This is the post content that should be visible to the user",
+      "status": "Draft",
+      "createAt": "",
+      "updatedAt": ""
+    }
+  ]
+}

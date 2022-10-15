@@ -1,16 +1,17 @@
 import {Component} from '@angular/core';
-import {SyncEndComponent} from "./solutions/lab_2/sync-end.component";
+import {PostsComponent} from "./solutions/demo_ngrx_store/posts.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [SyncEndComponent],
+  imports: [PostsComponent],
   template: `
-     <div class="container">
-        <h1>State Workshop Ref</h1>
-        <app-sync-end></app-sync-end> 
-    </div>
+      <div class="container">
+          <h1>State Workshop Ref</h1>
+          <app-posts></app-posts>
+      </div>
   `,
 
 })
-export class AppComponent {}
+export class AppComponent {
+}

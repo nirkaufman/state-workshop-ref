@@ -1,4 +1,4 @@
-# Part I :: String Foundations
+# Part I :: Strong Foundations
 
 - discuss what is state
 - you can't be in two states in the same time
@@ -15,7 +15,7 @@ __APP.COMPONENT.TS__
   imports: [PostEndComponent, NgIf],
   template: `
      <div class="container">
-        <h1>State Workshop Ref</h1>
+        <h1>PostsReducer Workshop Ref</h1>
          <button class="btn btn-primary my-4" (click)="startNewPost()">create new post</button>
         <app-post-end *ngIf="showPostUI"></app-post-end> 
     </div>

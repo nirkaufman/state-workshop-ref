@@ -1,4 +1,4 @@
-# LAB I : Post State
+# LAB I : Post PostsReducer
 
 - This feature enable you to create a post.
 - Each post goes through 4 states: DRAFT, IN_REVIEW, DECLINED, PUBLISHED
